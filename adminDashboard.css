@@ -1,0 +1,43 @@
+.boldFont {
+    font-weight: bold;
+}
+
+#advancedSearch {
+  font-family: Arial;
+  color: #0099ff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#advancedSearch:hover {
+    text-decoration: none;
+    color: #3498db;
+    cursor: pointer;
+}
+
+.advancedborder {
+    border-style: solid;
+    border-width: medium;
+    border-color: #b70f0a;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: floralwhite;
+}
+
+.showElement {
+    visibility: visible;
+}
+
+.hideElement {
+    visibility: collapse;
+}
+
+.transp {
+  background-color: #F5F5F5;
+  border:none;
+  height: 100px;
+  width: 60px;
+
+}
+

@@ -1,0 +1,165 @@
+#header {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    max-width: 100%;
+    width: 115%;
+    height: 20%;
+}
+.headerFont {
+    color: #b70f0a;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.buttonColor {
+  background-color: #00c8f8;
+  width: 150px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.labelStyle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.bannerFont {
+    color: white;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+
+}
+
+.bannerTextPosition {
+    position: absolute;
+    top: 15px;
+    left: 24px;
+
+}
+/*Start of Nav Bar*/
+#navbar {
+    margin: 0;
+    padding: 0;
+    height: 3em;
+    background-color: #333; }
+#navbar li {
+    list-style: none;
+    float: left; }
+#navbar li a {
+    display: block;
+    padding: 9px 8px;
+/*    background-color: #5e8ce9;*/
+    color: #fff;
+    text-decoration: none; }
+
+    #navbar li ul {
+    display: none; 
+    width: 10em; /* Width to help Opera out */
+    background-color: #333;}
+
+    #navbar li:hover ul {
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 0; }
+    
+#navbar li:hover li {
+    float: none; }
+#navbar li:hover li a {
+    background-color: #69f;
+    border-bottom: 1px solid #fff;
+    color: #000; }
+#navbar li li a:hover {
+    background-color: #8db3ff; }
+
+#navbar li:hover ul, #navbar li.hover ul {
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 0; }
+#navbar li:hover li, #navbar li.hover li {
+    float: none; }
+#navbar li:hover li a, #navbar li.hover li a {
+    background-color: #69f;
+    border-bottom: 1px solid #fff;
+    color: #000; }
+
+/*End of Nav Bar*/
+
+table#thesisTable{
+    td, th{
+        width: 200px;
+    }
+
+}
+.profile{
+    text-align: left;
+    padding-right: 25%;
+    padding-left: 30%;
+
+}
+.scroll{ 
+    overflow-y: scroll;
+    display: block;
+    width: 100%;
+    height: 400px;
+    padding-left: 10%;
+
+}
+
+input[type="radio"]{
+  margin: 0 10px 0 10px;
+}
+
+input[type="checkbox"]{
+  margin: 0 10px 0 10px;
+}
+
+
+label.profile{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+
+}
+input.profile {
+  display: inline-block;
+  float: left;
+}
+
+select.profile {
+  display: inline-block;
+  float: left;
+}
+
+
+
+html, body{
+    background-color: #F5F5F5; 
+
+}
+
+html, head{
+    background-color: #333;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: white;
+  padding-left: 100px;
+}
+
+table,th,td{
+    padding-left: 100px;
+}
